@@ -3,6 +3,9 @@ node {
   checkout scm
  }
  stage('deploy') {
+
+  echo "Created Successfully"
+  
   echo 'branch name ' + env.BRANCH_NAME
 
   if (env.BRANCH_NAME.startsWith("Feature_")) {
@@ -18,3 +21,4 @@ node {
 
  }
 }
+
