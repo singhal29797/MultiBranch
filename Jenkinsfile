@@ -3,6 +3,7 @@ node {
   checkout scm
  }
  stage('deploy') {
+
   echo "Created Successfully"
   
   echo 'branch name ' + env.BRANCH_NAME
@@ -17,6 +18,7 @@ node {
 
   sh """chmod +x helloworld.sh 
   ./helloworld.sh"""
+
  }
-  
+}
 }
