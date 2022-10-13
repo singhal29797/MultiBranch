@@ -17,12 +17,5 @@ node {
   ./helloworld.sh"""
 
  }
-  stage('for the PR'){
-    when{
-      branch 'PR-*'
-    }
-    steps{
-      echo 'this only runs for PRs'
-    }
-  }
+  
 }
