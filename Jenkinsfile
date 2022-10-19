@@ -3,8 +3,9 @@ node {
   checkout scm
  }
  stage('deploy') {
-
+  echo "AK"
   echo "Created Successfully"
+  echo "AK"
   
   echo 'branch name ' + env.BRANCH_NAME
 
