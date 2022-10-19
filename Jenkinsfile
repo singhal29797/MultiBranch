@@ -5,7 +5,7 @@ node {
  stage('deploy') {
   echo "AK"
   echo "Created Successfully"
-  echo "AK"
+  echo "Ak shivam praveen"
   
   echo 'branch name ' + env.BRANCH_NAME
 
